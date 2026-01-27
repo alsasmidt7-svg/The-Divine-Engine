@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "CUSTOM:Plantfiber"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plantfiber"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "CUSTOM:Plantfiber"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "CUSTOM:Plantfiber"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "CUSTOM:Plantfiber"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Insulatingtape"
+    },
+    "name": "insulatingtapecraft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_divine_engine:ancient_recipe"
+    },
+    "title": {
+      "translate": "advancements.ancient_recipe_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.ancient_recipe_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ancient_recipe_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_divine_engine:ancient_recipe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_divine_engine:basisadvancement"
+}

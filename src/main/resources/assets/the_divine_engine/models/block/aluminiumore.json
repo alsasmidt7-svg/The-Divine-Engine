@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/aluminium_ore",
+    "up": "the_divine_engine:block/aluminium_ore",
+    "north": "the_divine_engine:block/aluminium_ore",
+    "east": "the_divine_engine:block/aluminium_ore",
+    "south": "the_divine_engine:block/aluminium_ore",
+    "west": "the_divine_engine:block/aluminium_ore",
+    "particle": "the_divine_engine:block/aluminium_ore"
+  },
+  "render_type": "solid"
+}

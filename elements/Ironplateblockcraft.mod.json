@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Ironplate"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      },
+      {
+        "value": "CUSTOM:Ironplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ironplateblock"
+    },
+    "name": "ironplateblockcraft",
+    "namespace": "mod"
+  }
+}

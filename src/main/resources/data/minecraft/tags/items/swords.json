@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_divine_engine:titanium_sword",
+    "the_divine_engine:coppersword",
+    "the_divine_engine:aluminium_sword",
+    "the_divine_engine:steelsword"
+  ]
+}

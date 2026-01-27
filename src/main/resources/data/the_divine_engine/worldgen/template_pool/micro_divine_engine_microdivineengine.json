@@ -1,0 +1,17 @@
+{
+  "name": "the_divine_engine:micro_divine_engine_microdivineengine",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "the_divine_engine:micro_divine_engine",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

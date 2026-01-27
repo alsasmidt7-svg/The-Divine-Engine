@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:harvestedhemp"
+    },
+    {
+      "item": "the_divine_engine:harvestedhemp"
+    }
+  ],
+  "result": {
+    "id": "minecraft:string",
+    "count": 1
+  }
+}

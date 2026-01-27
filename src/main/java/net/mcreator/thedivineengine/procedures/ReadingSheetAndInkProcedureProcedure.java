@@ -1,0 +1,45 @@
+package net.mcreator.thedivineengine.procedures;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.thedivineengine.world.inventory.InkAndSheetInterfaceMenu;
+import net.mcreator.thedivineengine.init.TheDivineEngineModBlocks;
+
+import io.netty.buffer.Unpooled;
+
+public class ReadingSheetAndInkProcedureProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		if (entity == null)
+			return;
+		if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == TheDivineEngineModBlocks.TABLE.get()) {
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = BlockPos.containing(x, y, z);
+				_ent.openMenu(new MenuProvider() {
+					@Override
+					public Component getDisplayName() {
+						return Component.literal("InkAndSheetInterface");
+					}
+
+					@Override
+					public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+						return false;
+					}
+
+					@Override
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new InkAndSheetInterfaceMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					}
+				}, _bpos);
+			}
+		}
+	}
+}

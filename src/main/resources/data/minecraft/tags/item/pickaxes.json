@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_divine_engine:copperpickaxe",
+    "the_divine_engine:steel_pickaxe",
+    "the_divine_engine:titanium_pickaxe",
+    "the_divine_engine:aluminium_pickaxe"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_divine_engine:crusher"
+    },
+    "title": {
+      "translate": "advancements.crusheradvancement.title"
+    },
+    "description": {
+      "translate": "advancements.crusheradvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusheradvancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_divine_engine:crusher"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_divine_engine:steelingotadvancement"
+}

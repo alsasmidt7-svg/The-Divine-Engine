@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bricks"
+    },
+    "b": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:industrialfurnance",
+    "count": 1
+  }
+}

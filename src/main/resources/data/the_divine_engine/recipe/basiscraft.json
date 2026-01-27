@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelplateblock"
+    },
+    "b": {
+      "item": "the_divine_engine:steelblock"
+    },
+    "c": {
+      "item": "the_divine_engine:aluminiumplate"
+    },
+    "d": {
+      "item": "the_divine_engine:mechanicalparts"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:thebasisofamechanicalmachine",
+    "count": 2
+  }
+}

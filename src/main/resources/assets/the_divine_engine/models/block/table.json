@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/table",
+  "textures": {
+    "all": "the_divine_engine:block/texturetable",
+    "particle": "the_divine_engine:block/texturetable",
+    "2": "the_divine_engine:block/texturetable"
+  },
+  "render_type": "solid"
+}

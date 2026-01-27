@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/copperwirewest",
+  "textures": {
+    "all": "the_divine_engine:block/texturew",
+    "particle": "the_divine_engine:block/texturew",
+    "1": "the_divine_engine:block/texturew"
+  },
+  "render_type": "solid"
+}

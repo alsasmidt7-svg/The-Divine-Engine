@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_divine_engine:block/hemp",
+    "particle": "the_divine_engine:block/hemp"
+  },
+  "render_type": "cutout"
+}

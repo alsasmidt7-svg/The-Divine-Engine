@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_divine_engine:block/remains_of_the_ancients"
+    },
+    "facing=east": {
+      "model": "the_divine_engine:block/remains_of_the_ancients",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_divine_engine:block/remains_of_the_ancients",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_divine_engine:block/remains_of_the_ancients",
+      "y": 270
+    }
+  }
+}

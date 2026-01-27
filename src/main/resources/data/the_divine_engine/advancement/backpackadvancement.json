@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_divine_engine:backpack"
+    },
+    "title": {
+      "translate": "advancements.backpackadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.backpackadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "backpackadvancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_divine_engine:backpack"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_divine_engine:beginadvancement"
+}

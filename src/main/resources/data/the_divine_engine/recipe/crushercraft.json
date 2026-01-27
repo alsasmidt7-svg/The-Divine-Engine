@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:ironplateblock"
+    },
+    "b": {
+      "item": "the_divine_engine:steelplateblock"
+    },
+    "c": {
+      "item": "the_divine_engine:thebasisofamechanicalmachine"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:crusher",
+    "count": 1
+  }
+}

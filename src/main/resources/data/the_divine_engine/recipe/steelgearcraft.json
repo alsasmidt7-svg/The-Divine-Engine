@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:steelgears",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:copperwire"
+    },
+    {
+      "item": "the_divine_engine:insulatingtape"
+    }
+  ],
+  "result": {
+    "id": "the_divine_engine:copper_wire_block",
+    "count": 1
+  }
+}

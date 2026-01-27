@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:aluminiumingot"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:aluminium_armor_boots",
+    "count": 1
+  }
+}

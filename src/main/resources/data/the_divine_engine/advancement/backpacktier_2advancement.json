@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_divine_engine:backpacktier_2"
+    },
+    "title": {
+      "translate": "advancements.backpacktier_2advancement.title"
+    },
+    "description": {
+      "translate": "advancements.backpacktier_2advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "backpacktier_2advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_divine_engine:backpacktier_2"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_divine_engine:backpackadvancement"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/ancient_basis",
+    "up": "the_divine_engine:block/ancient_basis",
+    "north": "the_divine_engine:block/ancient_basis",
+    "east": "the_divine_engine:block/ancient_basis",
+    "south": "the_divine_engine:block/ancient_basis",
+    "west": "the_divine_engine:block/ancient_basis",
+    "particle": "the_divine_engine:block/ancient_basis"
+  },
+  "render_type": "solid"
+}

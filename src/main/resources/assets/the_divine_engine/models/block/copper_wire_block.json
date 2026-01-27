@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/copper_wire",
+  "textures": {
+    "all": "the_divine_engine:block/texture",
+    "particle": "the_divine_engine:block/texture",
+    "0": "the_divine_engine:block/texture"
+  },
+  "render_type": "solid"
+}

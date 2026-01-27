@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_divine_engine:churchoftheancients",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 1000,
+    "separation": 120,
+    "salt": 1776864158
+  }
+}

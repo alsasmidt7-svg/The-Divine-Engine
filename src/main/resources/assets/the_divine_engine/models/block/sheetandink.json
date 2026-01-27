@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/sheet_and_ink",
+  "textures": {
+    "all": "the_divine_engine:block/texturesheetandink",
+    "particle": "the_divine_engine:block/texturesheetandink",
+    "3": "the_divine_engine:block/texturesheetandink"
+  },
+  "render_type": "solid"
+}

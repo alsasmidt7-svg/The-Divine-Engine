@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:electrumingot"
+    },
+    {
+      "item": "the_divine_engine:ironhammer"
+    }
+  ],
+  "result": {
+    "id": "the_divine_engine:electrumplate",
+    "count": 1
+  }
+}

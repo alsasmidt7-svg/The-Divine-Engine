@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:ironhammer"
+    },
+    "b": {
+      "item": "the_divine_engine:silicon"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:siliconwafer",
+    "count": 1
+  }
+}

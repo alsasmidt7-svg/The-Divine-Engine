@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "micro_divine_engine",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 200,
+    "separation": 50,
+    "restrictionBiomes": [
+      {
+        "value": "stony_peaks"
+      },
+      {
+        "value": "dripstone_caves"
+      },
+      {
+        "value": "lush_caves"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 64,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "microdivineengine",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "micro_divine_engine",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

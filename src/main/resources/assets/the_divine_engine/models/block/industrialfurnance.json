@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/bricks",
+    "up": "the_divine_engine:block/texture_induction_furnance2",
+    "north": "minecraft:block/bricks",
+    "east": "minecraft:block/bricks",
+    "south": "minecraft:block/bricks",
+    "west": "minecraft:block/bricks",
+    "particle": "minecraft:block/bricks"
+  },
+  "render_type": "solid"
+}

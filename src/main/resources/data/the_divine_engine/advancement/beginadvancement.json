@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "the_divine_engine:the_divine_engine_item"
+    },
+    "title": {
+      "translate": "advancements.beginadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.beginadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beginadvancement_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

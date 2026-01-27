@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/titanium_block",
+    "up": "the_divine_engine:block/titanium_block",
+    "north": "the_divine_engine:block/titanium_block",
+    "east": "the_divine_engine:block/titanium_block",
+    "south": "the_divine_engine:block/titanium_block",
+    "west": "the_divine_engine:block/titanium_block",
+    "particle": "the_divine_engine:block/titanium_block"
+  },
+  "render_type": "solid"
+}

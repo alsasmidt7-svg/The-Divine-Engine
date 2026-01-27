@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:coppercoil"
+    },
+    "b": {
+      "item": "the_divine_engine:steelplate"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:rotor",
+    "count": 1
+  }
+}

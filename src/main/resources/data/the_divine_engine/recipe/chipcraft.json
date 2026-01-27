@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:copperwire"
+    },
+    "b": {
+      "item": "the_divine_engine:siliconwafer"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:chip",
+    "count": 1
+  }
+}

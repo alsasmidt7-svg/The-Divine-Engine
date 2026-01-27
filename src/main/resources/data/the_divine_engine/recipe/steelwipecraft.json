@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    {
+      "item": "the_divine_engine:steel_ingot"
+    }
+  ],
+  "result": {
+    "id": "the_divine_engine:steelwipe",
+    "count": 8
+  }
+}

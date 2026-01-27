@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steel_ingot"
+    },
+    "b": {
+      "item": "the_divine_engine:steelplate"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:steelhammer",
+    "count": 1
+  }
+}

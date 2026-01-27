@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:steelblock",
+    "count": 1
+  }
+}

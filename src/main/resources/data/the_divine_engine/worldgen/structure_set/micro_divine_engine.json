@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_divine_engine:micro_divine_engine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 200,
+    "separation": 50,
+    "salt": 1885346903
+  }
+}

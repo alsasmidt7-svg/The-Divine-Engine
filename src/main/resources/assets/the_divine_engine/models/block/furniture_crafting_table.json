@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/furniturecraftingtabledown",
+    "up": "the_divine_engine:block/furniturecraftingtableup",
+    "north": "the_divine_engine:block/furniturecrafrtingtable",
+    "east": "the_divine_engine:block/furniturecrafrtingtable",
+    "south": "the_divine_engine:block/furniturecrafrtingtable",
+    "west": "the_divine_engine:block/furniturecrafrtingtable",
+    "particle": "the_divine_engine:block/furniturecraftingtabledown"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:plantfiber"
+    },
+    "b": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:insulatingtape",
+    "count": 1
+  }
+}

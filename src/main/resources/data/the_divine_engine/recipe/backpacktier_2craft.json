@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "the_divine_engine:backpack"
+    },
+    "c": {
+      "item": "the_divine_engine:electrumplate"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:backpacktier_2",
+    "count": 1
+  }
+}

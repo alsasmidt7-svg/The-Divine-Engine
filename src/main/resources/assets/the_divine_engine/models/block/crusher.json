@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blast_furnace_top",
+    "up": "the_divine_engine:block/crusher",
+    "north": "minecraft:block/iron_block",
+    "east": "minecraft:block/iron_block",
+    "south": "minecraft:block/iron_block",
+    "west": "minecraft:block/iron_block",
+    "particle": "minecraft:block/blast_furnace_top"
+  },
+  "render_type": "solid"
+}

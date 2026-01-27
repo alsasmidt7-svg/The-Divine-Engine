@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:ancient_basis"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "the_divine_engine:ancient_basis"
+    }
+  ],
+  "result": {
+    "id": "the_divine_engine:piece_of_qn_qncient_recipe",
+    "count": 1
+  }
+}

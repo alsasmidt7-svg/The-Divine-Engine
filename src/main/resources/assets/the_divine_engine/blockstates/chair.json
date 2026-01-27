@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_divine_engine:block/chair"
+    },
+    "facing=east": {
+      "model": "the_divine_engine:block/chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_divine_engine:block/chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_divine_engine:block/chair",
+      "y": 270
+    }
+  }
+}

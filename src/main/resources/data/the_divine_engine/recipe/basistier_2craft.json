@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:titaniumblock"
+    },
+    "b": {
+      "item": "the_divine_engine:titamiumplate"
+    },
+    "c": {
+      "item": "the_divine_engine:thebasisofamechanicalmachine"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:basistier_2",
+    "count": 4
+  }
+}

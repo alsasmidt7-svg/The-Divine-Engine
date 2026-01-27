@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/copperwire13452",
+  "textures": {
+    "all": "the_divine_engine:block/texture13452",
+    "particle": "the_divine_engine:block/texture13452",
+    "2": "the_divine_engine:block/texture13452"
+  },
+  "render_type": "solid"
+}

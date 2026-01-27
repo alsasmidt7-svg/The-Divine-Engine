@@ -1,0 +1,17 @@
+{
+  "name": "the_divine_engine:fortressofthe_ancients_fortress_of_the_ancients",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "the_divine_engine:fortress_of_the_ancients",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

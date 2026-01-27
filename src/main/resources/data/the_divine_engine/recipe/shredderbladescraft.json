@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    " a ",
+    " aa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelplate"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:shredderblades",
+    "count": 1
+  }
+}

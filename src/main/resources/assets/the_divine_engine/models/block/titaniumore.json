@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/titanium_ore",
+    "up": "the_divine_engine:block/titanium_ore",
+    "north": "the_divine_engine:block/titanium_ore",
+    "east": "the_divine_engine:block/titanium_ore",
+    "south": "the_divine_engine:block/titanium_ore",
+    "west": "the_divine_engine:block/titanium_ore",
+    "particle": "the_divine_engine:block/titanium_ore"
+  },
+  "render_type": "solid"
+}

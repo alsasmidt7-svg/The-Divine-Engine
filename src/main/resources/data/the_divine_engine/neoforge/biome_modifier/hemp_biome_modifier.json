@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "taiga",
+    "swamp",
+    "jungle"
+  ],
+  "features": "the_divine_engine:hemp",
+  "step": "vegetal_decoration"
+}

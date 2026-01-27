@@ -1,0 +1,97 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "fortress_of_the_ancients",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 1000,
+    "separation": 120,
+    "restrictionBiomes": [
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "snowy_tundra"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "fortress_of_the_ancients",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "fortress_of_the_ancients",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelplateblock"
+    },
+    "b": {
+      "item": "the_divine_engine:basistier_2"
+    },
+    "c": {
+      "item": "the_divine_engine:wheel_for_hand_dynamo"
+    },
+    "d": {
+      "item": "the_divine_engine:motor"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:elctric_generator",
+    "count": 1
+  }
+}

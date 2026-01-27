@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_divine_engine:titanium_axe",
+    "the_divine_engine:aluminiumaxe",
+    "the_divine_engine:copperaxe",
+    "the_divine_engine:steelaxe"
+  ]
+}

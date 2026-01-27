@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelplate"
+    },
+    "b": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:furniture_crafting_table",
+    "count": 1
+  }
+}

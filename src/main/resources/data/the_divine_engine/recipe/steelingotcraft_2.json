@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_divine_engine:steelblock"
+    }
+  ],
+  "result": {
+    "id": "the_divine_engine:steel_ingot",
+    "count": 9
+  }
+}

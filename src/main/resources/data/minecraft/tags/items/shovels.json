@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "the_divine_engine:coppershovel",
+    "the_divine_engine:titanium_shovel",
+    "the_divine_engine:steelshovel",
+    "the_divine_engine:aluminium_shovel"
+  ]
+}

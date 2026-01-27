@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Titaniumblock"
+      },
+      {
+        "value": "CUSTOM:Titamiumplate"
+      },
+      {
+        "value": "CUSTOM:Titaniumblock"
+      },
+      {
+        "value": "CUSTOM:Titamiumplate"
+      },
+      {
+        "value": "CUSTOM:Thebasisofamechanicalmachine"
+      },
+      {
+        "value": "CUSTOM:Titamiumplate"
+      },
+      {
+        "value": "CUSTOM:Titaniumblock"
+      },
+      {
+        "value": "CUSTOM:Titamiumplate"
+      },
+      {
+        "value": "CUSTOM:Titaniumblock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Basistier2"
+    },
+    "name": "basistier_2craft",
+    "namespace": "mod"
+  }
+}

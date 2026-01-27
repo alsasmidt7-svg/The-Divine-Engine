@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:electrumwire"
+    },
+    "b": {
+      "item": "the_divine_engine:insulatingtape"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:insulated_electrum_wire",
+    "count": 1
+  }
+}

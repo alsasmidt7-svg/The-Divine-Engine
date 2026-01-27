@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelgears"
+    },
+    "b": {
+      "item": "the_divine_engine:steelwipe"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:mechanicalparts",
+    "count": 4
+  }
+}

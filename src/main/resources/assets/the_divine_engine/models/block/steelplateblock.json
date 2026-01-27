@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_divine_engine:block/steel_plate_block",
+    "up": "the_divine_engine:block/steel_plate_block",
+    "north": "the_divine_engine:block/steel_block",
+    "east": "the_divine_engine:block/steel_block",
+    "south": "the_divine_engine:block/steel_block",
+    "west": "the_divine_engine:block/steel_block",
+    "particle": "the_divine_engine:block/steel_plate_block"
+  },
+  "render_type": "solid"
+}

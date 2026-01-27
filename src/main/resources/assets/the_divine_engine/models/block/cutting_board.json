@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/cutting_board",
+  "textures": {
+    "all": "the_divine_engine:block/texturecuttingboard",
+    "particle": "the_divine_engine:block/texturecuttingboard",
+    "0": "the_divine_engine:block/texturecuttingboard"
+  },
+  "render_type": "solid"
+}

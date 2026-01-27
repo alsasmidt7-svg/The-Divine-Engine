@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/remains_of_the_ancients",
+  "textures": {
+    "all": "the_divine_engine:block/texturemainsoftheanciens",
+    "particle": "the_divine_engine:block/texturemainsoftheanciens",
+    "2": "the_divine_engine:block/texturemainsoftheanciens"
+  },
+  "render_type": "solid"
+}

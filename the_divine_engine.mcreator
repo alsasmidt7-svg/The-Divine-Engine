@@ -1,0 +1,4274 @@
+{
+  "mod_elements": [
+    {
+      "name": "Industrialfurnance",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialfurnance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/industrialfurnance.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/industrialfurnance.json",
+          "src/main/resources/assets/the_divine_engine/models/item/industrialfurnance.json",
+          "src/main/java/net/mcreator/thedivineengine/block/IndustrialfurnanceBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/block/industrialfurnance.json"
+        ]
+      }
+    },
+    {
+      "name": "Inductionfurnanceinrerface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inductionfurnanceinrerface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/InductionfurnanceinrerfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/InductionfurnanceinrerfaceScreen.java",
+          "src/main/java/net/mcreator/thedivineengine/network/InductionfurnanceinrerfaceButtonMessage.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/SteelPickaxeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steel_pickaxe.json"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "TheDivineEngine",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_divine_engine",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Steelpickaxecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelpickaxecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelpickaxecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelpickaxecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Industrialfurnancecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrialfurnancecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/industrialfurnancecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Alloyofcoalandiron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alloyofcoalandiron00",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/AlloyofcoalandironProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Steelingotadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelingotadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/steelingotadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Steelpickaxeadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelpickaxeadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/steelpickaxeadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Steelblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/block/SteelblockBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steelblock.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/steelblock.json",
+          "src/main/resources/assets/the_divine_engine/models/block/steelblock.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/steelblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelblockcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelingotcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelingotcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelingotcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelingotcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steelaxe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelaxeItem.java"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "Steelaxecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelaxecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelaxecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelaxecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Thedivineengineicon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thedivineengineicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/thedivineengineicon.json",
+          "src/main/java/net/mcreator/thedivineengine/item/ThedivineengineiconItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Beginadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beginadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/beginadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Steelsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steelsword.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelswordItem.java"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "Steelswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelswordcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelswordcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steelshovel.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelshovelItem.java"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "Steelshovelcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelshovelcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelshovelcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelshovelcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steelhoe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelhoeItem.java"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "Steelhoecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhoecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelhoecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ironhammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/IronhammerItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/ironhammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironhammercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/ironhammercraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironhammercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ironplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/ironplate.json",
+          "src/main/java/net/mcreator/thedivineengine/item/IronplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ironplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/ironplatecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/SteelplateItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steelplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelplatecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelplateblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplateblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/steelplateblock.json",
+          "src/main/resources/assets/the_divine_engine/models/item/steelplateblock.json",
+          "src/main/resources/assets/the_divine_engine/models/block/steelplateblock.json",
+          "src/main/java/net/mcreator/thedivineengine/block/SteelplateblockBlock.java",
+          "src/main/resources/assets/the_divine_engine/blockstates/steelplateblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelplateblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplateblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelplateblockcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelplateblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ironplateblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplateblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/block/ironplateblock.json",
+          "src/main/java/net/mcreator/thedivineengine/block/IronplateblockBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/ironplateblock.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/ironplateblock.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/ironplateblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironplateblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplateblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/ironplateblockcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironplateblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Crusher",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/block/entity/CrusherBlockEntity.java",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/crusher.json",
+          "src/main/resources/assets/the_divine_engine/models/item/crusher.json",
+          "src/main/resources/assets/the_divine_engine/models/block/crusher.json",
+          "src/main/java/net/mcreator/thedivineengine/block/CrusherBlock.java",
+          "src/main/resources/assets/the_divine_engine/blockstates/crusher.json"
+        ]
+      }
+    },
+    {
+      "name": "Crushercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/crushercraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/crushercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Irondust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irondust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/IrondustItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/irondust.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironingotdustcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironingotdustcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironingotdustcraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/ironingotdustcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Crusherinterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusherinterface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/network/CrusherinterfaceButtonMessage.java",
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/CrusherinterfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/CrusherinterfaceScreen.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "Crushingiron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushingiron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/CrushingironProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Irondustadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusheradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/crusheradvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Golddust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golddust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/GolddustItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/golddust.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldingotdustcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldingotdustcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/goldingotdustcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/goldingotdustcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperdust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/CopperdustItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/copperdust.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperwire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperwire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/CopperwireItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/copperwire.json"
+        ]
+      }
+    },
+    {
+      "name": "Siliconwafer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siliconwafer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/SiliconwaferItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/siliconwafer.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/copperplate.json",
+          "src/main/java/net/mcreator/thedivineengine/item/CopperplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperplatecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperwirecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperwirecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperwirecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperwirecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Siliconwafercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siliconwafercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/siliconwafercraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/siliconwafercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Chip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/ChipItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/chip.json"
+        ]
+      }
+    },
+    {
+      "name": "Chipcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chipcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/chipcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/chipcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Chipadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chipadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/chipadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/inventory/BackpackInventoryCapability.java",
+          "src/main/java/net/mcreator/thedivineengine/item/BackpackItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/backpack.json"
+        ]
+      }
+    },
+    {
+      "name": "Backpackcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/backpackcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/backpackcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Backpackinterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackinterface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/BackpackinterfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/BackpackinterfaceScreen.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "Backpackinterfaceopening",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackinterfaceopening",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/BackpackinterfaceopeningProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Diamondcrusherwheels",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondcrusherwheels",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/DiamondcrusherwheelsItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/diamondcrusherwheels.json"
+        ]
+      }
+    },
+    {
+      "name": "Mechanicalparts",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanicalparts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/MechanicalpartsItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/mechanicalparts.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelwipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelwipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/SteelwipeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steelwipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelgears",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelgears",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steelgears.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelgearsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Steelgearcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelgearcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelgearcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelgearcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelwipecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelwipecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelwipecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelwipecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Mechanicalpartscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanicalpartscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/mechanicalpartscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Insulatedcopperwire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatedcopperwire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/insulatedcopperwire.json",
+          "src/main/java/net/mcreator/thedivineengine/item/InsulatedcopperwireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Insulatedcopperwirecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatedcopperwirecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/insulatedcopperwirecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/insulatedcopperwirecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/neoforge/biome_modifier/aluminiumore_biome_modifier.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/aluminiumore.json",
+          "src/main/resources/data/the_divine_engine/worldgen/configured_feature/aluminiumore.json",
+          "src/main/resources/data/the_divine_engine/worldgen/placed_feature/aluminiumore.json",
+          "src/main/resources/assets/the_divine_engine/models/block/aluminiumore.json",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumore.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/aluminiumore.json",
+          "src/main/java/net/mcreator/thedivineengine/block/AluminiumoreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumrawore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumrawore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumraworeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumrawore.json"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumingotItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumingotcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumingotcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumingotcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumingotcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingotcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumingotcraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumingotcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ironingotdustcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironingotdustcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironingotdustcraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/ironingotdustcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Goldingotdustcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldingotdustcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/goldingotdustcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/goldingotdustcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperingotcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperingotcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperingotcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperingotcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperingotcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperingotcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperingotcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumdust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumdust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumdust.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumdustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumingotcraft3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingotcraft_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumingotcraft_3.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumingotcraft_3.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumingotcraft4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumingotcraft_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumingotcraft_4.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumingotcraft_4.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumdust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumdust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/ElectrumdustItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/electrumdust.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumdustcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumdustcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumdustcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumdustcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/ElectrumingotItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/electrumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumingotcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumingotcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumingotcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumingotcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumingotcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumingotcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumingotcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Tagcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tagcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/tagcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/tagcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Leathercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leathercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/leathercraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/leathercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/CopperpickaxeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/copperpickaxe.json"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Copperaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/copperaxe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/CopperaxeItem.java"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Coppersword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/CopperswordItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/coppersword.json"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Coppershovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/coppershovel.json",
+          "src/main/java/net/mcreator/thedivineengine/item/CoppershovelItem.java"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Copperhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/copperhoe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/CopperhoeItem.java"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Copperpickaxecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperpickaxecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperpickaxecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperaxecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperaxecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperaxecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperswordcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperswordcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperswordcraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/copperswordcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Coppershovelcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershovelcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/coppershovelcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/coppershovelcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperhoecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhoecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperhoecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/copperhoecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Rawblastfurnanceadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawblastfurnanceadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/rawblastfurnanceadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Backpackadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpackadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/backpackadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Electrumingotadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumingotadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/electrumingotadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Aluminiumadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/aluminiumadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Irondustadvancement2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irondustadvancement_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/irondustadvancement_2.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Ironhammeradvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammeradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/ironhammeradvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Ironplateadvencement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplateadvencement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/ironplateadvencement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Mechanicalpartsadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanicalpartsadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/mechanicalpartsadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Steelplateadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplateadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/steelplateadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheDivineEngineItemPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_divine_engine_item_pri_shchielchkie_pkm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/TheDivineEngineItemPriShchielchkiePKMProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "TheDivineEngineItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_divine_engine_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/TheDivineEngineItemItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/the_divine_engine_item.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/steel_armor_helmet.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SteelArmorItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/the_divine_engine/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/the_divine_engine/models/item/steel_armor_boots.json"
+        ]
+      },
+      "path": "~/steel instruments"
+    },
+    {
+      "name": "Aluminiumblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/block/aluminiumblock.json",
+          "src/main/java/net/mcreator/thedivineengine/block/AluminiumblockBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumblock.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/aluminiumblock.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/aluminiumblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumblockcraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumplate.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumplatecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TheDivineEngineEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_divine_engine_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/potion/TheDivineEngineEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Copperarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/copperarmor_helmet.json",
+          "src/main/java/net/mcreator/thedivineengine/item/CopperarmorItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/copperarmor_chestplate.json",
+          "src/main/resources/assets/the_divine_engine/models/item/copperarmor_boots.json",
+          "src/main/resources/assets/the_divine_engine/models/item/copperarmor_leggings.json"
+        ]
+      },
+      "path": "~/copper instruments"
+    },
+    {
+      "name": "Aluminiumplateblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplateblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/block/AluminiumplateblockBlock.java",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/aluminiumplateblock.json",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumplateblock.json",
+          "src/main/resources/assets/the_divine_engine/models/block/aluminiumplateblock.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/aluminiumplateblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Aluminiumplateblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplateblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumplateblockcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumplateblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/electrumplate.json",
+          "src/main/java/net/mcreator/thedivineengine/item/ElectrumplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Electrumwire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumwire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/ElectrumwireItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/electrumwire.json"
+        ]
+      }
+    },
+    {
+      "name": "InsulatedElectrumWire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulated_electrum_wire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/InsulatedElectrumWireItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/insulated_electrum_wire.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumplatecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumwirecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumwirecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumwirecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/electrumwirecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Insulatedelectrumwirecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatedelectrumwirecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/insulatedelectrumwirecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/insulatedelectrumwirecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Insulatingtape",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatingtape",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/InsulatingtapeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/insulatingtape.json"
+        ]
+      }
+    },
+    {
+      "name": "Insulatingtapecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatingtapecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/insulatingtapecraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/insulatingtapecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Plantshredderinterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantshredderinterface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/client/gui/PlantshredderinterfaceScreen.java",
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/PlantshredderinterfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/network/PlantshredderinterfaceButtonMessage.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "Plantshredder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantshredder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/plantshredder.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/plantshredder.json",
+          "src/main/resources/assets/the_divine_engine/models/block/plantshredder.json",
+          "src/main/resources/assets/the_divine_engine/models/item/plantshredder.json",
+          "src/main/java/net/mcreator/thedivineengine/block/PlantshredderBlock.java",
+          "src/main/java/net/mcreator/thedivineengine/block/entity/PlantshredderBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Plantshreddering",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantshreddering",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/PlantshredderingProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Plantfiber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantfiber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/PlantfiberItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/plantfiber.json"
+        ]
+      }
+    },
+    {
+      "name": "Plantshreddercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantshreddercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/plantshreddercraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/plantshreddercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Shredderblades",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shredderblades",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/shredderblades.json",
+          "src/main/java/net/mcreator/thedivineengine/item/ShredderbladesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shredderbladescraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shredderbladescraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/shredderbladescraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/shredderbladescraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Plantshredderadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantshredderadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/plantshredderadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Plantfiberadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantfiberadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/plantfiberadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Insulatedwireadvancemenet",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "insulatedwireadvancemenet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/insulatedwireadvancemenet.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Silicon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/silicon.json",
+          "src/main/java/net/mcreator/thedivineengine/item/SiliconItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Siliconcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siliconcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/siliconcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/siliconcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Coppercoil",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppercoil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/CoppercoilItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/coppercoil.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppercoilcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppercoilcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/coppercoilcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/coppercoilcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Rotor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/rotor.json",
+          "src/main/java/net/mcreator/thedivineengine/item/RotorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rotorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/rotorcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/rotorcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Magnetiteore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnetiteore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/neoforge/biome_modifier/magnetiteore_biome_modifier.json",
+          "src/main/resources/assets/the_divine_engine/models/block/magnetiteore.json",
+          "src/main/java/net/mcreator/thedivineengine/block/MagnetiteoreBlock.java",
+          "src/main/resources/assets/the_divine_engine/blockstates/magnetiteore.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/magnetiteore.json",
+          "src/main/resources/data/the_divine_engine/worldgen/configured_feature/magnetiteore.json",
+          "src/main/resources/assets/the_divine_engine/models/item/magnetiteore.json",
+          "src/main/resources/data/the_divine_engine/worldgen/placed_feature/magnetiteore.json"
+        ]
+      }
+    },
+    {
+      "name": "Magnetiterawore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnetiterawore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/magnetiterawore.json",
+          "src/main/java/net/mcreator/thedivineengine/item/MagnetiteraworeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Processedmagnetite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processedmagnetite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/processedmagnetite.json",
+          "src/main/java/net/mcreator/thedivineengine/item/ProcessedmagnetiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Processedmagnetitecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processedmagnetitecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/processedmagnetitecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/processedmagnetitecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Motor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/MotorItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/motor.json"
+        ]
+      }
+    },
+    {
+      "name": "Electricmotorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricmotorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electricmotorcraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/electricmotorcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "ElctricGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elctric_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/elctric_generator.json",
+          "src/main/java/net/mcreator/thedivineengine/block/entity/ElctricGeneratorBlockEntity.java",
+          "src/main/resources/assets/the_divine_engine/models/block/elctric_generator.json",
+          "src/main/java/net/mcreator/thedivineengine/block/ElctricGeneratorBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/elctric_generator.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/elctric_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "WheelForHandDynamo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheel_for_hand_dynamo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/WheelForHandDynamoItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/wheel_for_hand_dynamo.json"
+        ]
+      }
+    },
+    {
+      "name": "HandDynamoCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_dynamo_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/hand_dynamo_craft.json",
+          "src/main/resources/data/the_divine_engine/recipe/hand_dynamo_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Wheelforhanddynamocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheelforhanddynamocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/wheelforhanddynamocraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/wheelforhanddynamocraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Handdynamointerface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handdynamointerface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/network/HanddynamointerfaceButtonMessage.java",
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/HanddynamointerfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/HanddynamointerfaceScreen.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "Electricmotoradvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricmotoradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/electricmotoradvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Handdynamoadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handdynamoadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/handdynamoadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Rotating",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotating",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/RotatingProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Copperhelmetcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperhelmetcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperhelmetcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperhelmetcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmetcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperhelmetcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperhelmetcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperchestplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperchestplatecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/copperchestplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperlegginscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperlegginscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperlegginscraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperlegginscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperbootscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperbootscraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperbootscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperbootscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperbootscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperbootscraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperbootscraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelhelmetcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhelmetcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelhelmetcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelhelmetcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelchestplatecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelchestplatecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelchestplatecraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelchestplatecraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steellegginscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steellegginscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steellegginscraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/steellegginscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelbootscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelbootscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelbootscraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelbootscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelbootscraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelbootscraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelbootscraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelbootscraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelhelmetcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhelmetcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelhelmetcraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/steelhelmetcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Titaniumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/worldgen/placed_feature/titaniumore.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/titaniumore.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/titaniumore.json",
+          "src/main/resources/data/the_divine_engine/worldgen/configured_feature/titaniumore.json",
+          "src/main/resources/data/the_divine_engine/neoforge/biome_modifier/titaniumore_biome_modifier.json",
+          "src/main/java/net/mcreator/thedivineengine/block/TitaniumoreBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/titaniumore.json",
+          "src/main/resources/assets/the_divine_engine/models/block/titaniumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumrawore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumrawore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumraworeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/titaniumrawore.json"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titaniumingot.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumingotcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumingotcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titaniumingotcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titaniumingotcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Titaniumingotcraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumingotcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titaniumingotcraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titaniumingotcraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Titamiumplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titamiumplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/TitamiumplateItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/titamiumplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Steelhammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/SteelhammerItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/steelhammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titaniumplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titaniumplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Copperwirecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperwirecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/copperwirecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/copperwirecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Siliconwafercraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siliconwafercraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/siliconwafercraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/siliconwafercraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Ironplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ironplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/ironplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Steelplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Aluminiumplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminiumplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminiumplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumplatecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumplatecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumplatecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumplatecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Electrumwirecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumwirecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/electrumwirecraft_2.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/electrumwirecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Processedmagnetitecraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processedmagnetitecraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/processedmagnetitecraft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/processedmagnetitecraft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Titaniumblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/titaniumblock.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/titaniumblock.json",
+          "src/main/java/net/mcreator/thedivineengine/block/TitaniumblockBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/block/titaniumblock.json",
+          "src/main/resources/assets/the_divine_engine/models/item/titaniumblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Titaniumblockcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumblockcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titaniumblockcraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titaniumblockcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Thebasisofamechanicalmachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebasisofamechanicalmachine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/thebasisofamechanicalmachine.json",
+          "src/main/resources/assets/the_divine_engine/models/item/thebasisofamechanicalmachine.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/thebasisofamechanicalmachine.json",
+          "src/main/resources/assets/the_divine_engine/models/block/thebasisofamechanicalmachine.json",
+          "src/main/java/net/mcreator/thedivineengine/block/ThebasisofamechanicalmachineBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Basiscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basiscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/basiscraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/basiscraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Backpacktier2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacktier_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/inventory/Backpacktier2InventoryCapability.java",
+          "src/main/java/net/mcreator/thedivineengine/item/Backpacktier2Item.java",
+          "src/main/resources/assets/the_divine_engine/models/item/backpacktier_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Backpacktier2interface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacktier_2interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/Backpacktier2interfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/Backpacktier2interfaceScreen.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "Basistier2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basistier_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/basistier_2.json",
+          "src/main/java/net/mcreator/thedivineengine/block/Basistier2Block.java",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/basistier_2.json",
+          "src/main/resources/assets/the_divine_engine/models/block/basistier_2.json",
+          "src/main/resources/assets/the_divine_engine/models/item/basistier_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Basistier2craft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basistier_2craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/basistier_2craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Backpacktier2craft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacktier_2craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/backpacktier_2craft.json",
+          "src/main/resources/data/the_divine_engine/recipe/backpacktier_2craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Basisadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basisadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/basisadvancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Basistier2advancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basistier_2advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/basistier_2advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Backpacktier2advancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpacktier_2advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/backpacktier_2advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Hemp",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/hemp.json",
+          "src/main/resources/data/the_divine_engine/worldgen/configured_feature/hemp.json",
+          "src/main/resources/data/the_divine_engine/neoforge/biome_modifier/hemp_biome_modifier.json",
+          "src/main/resources/data/the_divine_engine/worldgen/placed_feature/hemp.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/hemp.json",
+          "src/main/resources/assets/the_divine_engine/models/item/hemp.json",
+          "src/main/resources/assets/the_divine_engine/models/block/hemp.json",
+          "src/main/java/net/mcreator/thedivineengine/block/HempBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "HarvestedhempPriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvestedhemp_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/HarvestedhempPriZaviershieniiIspolzovaniiaProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Harvestedhemp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvestedhemp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/HarvestedhempItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/harvestedhemp.json"
+        ]
+      }
+    },
+    {
+      "name": "HarvestedhempThreadcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harvestedhemp_threadcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/harvestedhemp_threadcraft.json",
+          "src/main/resources/data/the_divine_engine/recipe/harvestedhemp_threadcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "MicroDivineEngine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "micro_divine_engine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/micro_divine_engine_microdivineengine.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure/micro_divine_engine.json",
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/micro_divine_engine.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure_set/micro_divine_engine.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperWireBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/block/entity/CopperWireBlockBlockEntity.java",
+          "src/main/resources/assets/the_divine_engine/models/item/copper_wire_block.json",
+          "src/main/resources/assets/the_divine_engine/models/block/copper_wire_block.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/copper_wire_block.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/copper_wire_block.json",
+          "src/main/java/net/mcreator/thedivineengine/block/CopperWireBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Steelhammercraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhammercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/steelhammercraft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/steelhammercraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "CopperWireN",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/copper_wire_n.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/copper_wire_n.json",
+          "src/main/java/net/mcreator/thedivineengine/block/entity/CopperWireNBlockEntity.java",
+          "src/main/resources/assets/the_divine_engine/models/block/copper_wire_n.json",
+          "src/main/java/net/mcreator/thedivineengine/block/CopperWireNBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Wiring",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiring",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/WiringProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "CopperWireBlock13452",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_wire_block_13452",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/copper_wire_block_13452.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/copper_wire_block_13452.json",
+          "src/main/resources/assets/the_divine_engine/models/block/copper_wire_block_13452.json",
+          "src/main/java/net/mcreator/thedivineengine/block/entity/CopperWireBlock13452BlockEntity.java",
+          "src/main/java/net/mcreator/thedivineengine/block/CopperWireBlock13452Block.java",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/copper_wire_block_13452.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientBasis",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_basis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/ancient_basis.json",
+          "src/main/resources/assets/the_divine_engine/models/block/ancient_basis.json",
+          "src/main/resources/assets/the_divine_engine/models/item/ancient_basis.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/ancient_basis.json",
+          "src/main/java/net/mcreator/thedivineengine/block/AncientBasisBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AncientRecipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/AncientRecipeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/ancient_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientRecipeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_recipe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ancient_recipe_craft.json",
+          "src/main/resources/data/the_divine_engine/recipe/ancient_recipe_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AncientRecipeAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_recipe_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/ancient_recipe_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AncientRecipeProcedur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_recipe_procedur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/AncientRecipeProcedurProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "PieceOfQnQncientRecipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_of_qn_qncient_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/piece_of_qn_qncient_recipe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/PieceOfQnQncientRecipeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AncientRecipeCraft2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_recipe_craft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/ancient_recipe_craft_2.json",
+          "src/main/resources/data/the_divine_engine/recipe/ancient_recipe_craft_2.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "FortressoftheAncients",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fortressofthe_ancients",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/fortressofthe_ancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/fortressofthe_ancients_fortress_of_the_ancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure/fortressofthe_ancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure_set/fortressofthe_ancients.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_pickaxe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumPickaxeItem.java"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "Aluminiumaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminiumaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumaxeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminiumaxe.json"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "AluminiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_shovel.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumShovelItem.java"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "AluminiumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_hoe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumHoeItem.java"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "AluminiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumSwordItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_sword.json"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "AluminiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_armor_chestplate.json",
+          "src/main/java/net/mcreator/thedivineengine/item/AluminiumArmorItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_armor_helmet.json",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_armor_boots.json",
+          "src/main/resources/assets/the_divine_engine/models/item/aluminium_armor_leggings.json"
+        ]
+      },
+      "path": "~/aluminium instruments"
+    },
+    {
+      "name": "TitaniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumPickaxeItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_pickaxe.json"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "TitaniumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_axe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumAxeItem.java"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "TitaniumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_shovel.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumShovelItem.java"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "TitaniumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_hoe.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumHoeItem.java"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "TitaniumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_sword.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumSwordItem.java"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "AluminiumPickaxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_pickaxe_craft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_pickaxe_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumAxeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_axe_craft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_axe_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumShovelCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_shovel_craft.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_shovel_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumHoeCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_hoe_craft.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_hoe_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_sword_craft.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_sword_craft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumHelmetC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_helmet_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_helmet_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_helmet_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumChestplateC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_chestplate_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_chestplate_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_chestplate_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumLegginsC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_leggins_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_leggins_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_leggins_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "AluminiumBootsC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_boots_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/aluminium_boots_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/aluminium_boots_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_armor_leggings.json",
+          "src/main/java/net/mcreator/thedivineengine/item/TitaniumArmorItem.java",
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_armor_helmet.json",
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_armor_chestplate.json",
+          "src/main/resources/assets/the_divine_engine/models/item/titanium_armor_boots.json"
+        ]
+      },
+      "path": "~/titanium instruments"
+    },
+    {
+      "name": "RemainsOfTheAncients",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remains_of_the_ancients",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/remains_of_the_ancients.json",
+          "src/main/resources/assets/the_divine_engine/models/block/remains_of_the_ancients.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/remains_of_the_ancients.json",
+          "src/main/java/net/mcreator/thedivineengine/block/RemainsOfTheAncientsBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/remains_of_the_ancients.json"
+        ]
+      }
+    },
+    {
+      "name": "Churchoftheancients",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "churchoftheancients",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/churchoftheancients_church_of_the_ancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/template_pool/churchoftheancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure_set/churchoftheancients.json",
+          "src/main/resources/data/the_divine_engine/worldgen/structure/churchoftheancients.json"
+        ]
+      }
+    },
+    {
+      "name": "CuttingBoard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutting_board",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/blockstates/cutting_board.json",
+          "src/main/resources/assets/the_divine_engine/models/block/cutting_board.json",
+          "src/main/resources/assets/the_divine_engine/models/item/cutting_board.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/cutting_board.json",
+          "src/main/java/net/mcreator/thedivineengine/block/CuttingBoardBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Table",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/table.json",
+          "src/main/java/net/mcreator/thedivineengine/block/TableBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/block/table.json",
+          "src/main/resources/assets/the_divine_engine/models/item/table.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/table.json"
+        ]
+      }
+    },
+    {
+      "name": "Sheetandink",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheetandink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/block/sheetandink.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/sheetandink.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/sheetandink.json",
+          "src/main/java/net/mcreator/thedivineengine/block/SheetandinkBlock.java",
+          "src/main/resources/assets/the_divine_engine/models/item/sheetandink.json"
+        ]
+      }
+    },
+    {
+      "name": "InkAndSheetInterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ink_and_sheet_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/InkAndSheetInterfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/client/gui/InkAndSheetInterfaceScreen.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "ReadingSheetAndInkProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reading_sheet_and_ink_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/ReadingSheetAndInkProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "Chair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_divine_engine/models/item/chair.json",
+          "src/main/resources/assets/the_divine_engine/models/block/chair.json",
+          "src/main/java/net/mcreator/thedivineengine/block/ChairBlock.java",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/chair.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/chair.json"
+        ]
+      }
+    },
+    {
+      "name": "CreatingWorld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creating_world",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/CreatingWorldProcedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "FutnitureTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "futniture_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TitaniumPickaxeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titanium_pickaxe_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_pickaxe_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumAxeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_axe_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/titanium_axe_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumShovelC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titanium_shovel_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_shovel_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumSwordC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_sword_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/titanium_sword_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumHoeC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titanium_hoe_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_hoe_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumHelmetC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_helmet_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_helmet_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/titanium_helmet_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumChestplateC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_chestplate_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titanium_chestplate_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_chestplate_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumLegginsC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_leggins_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_leggins_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/titanium_leggins_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "TitaniumBootsC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_boots_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/recipe/titanium_boots_c.json",
+          "src/main/resources/data/the_divine_engine/advancement/recipes/titanium_boots_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "FurnitureCraftingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/block/FurnitureCraftingTableBlock.java",
+          "src/main/java/net/mcreator/thedivineengine/block/entity/FurnitureCraftingTableBlockEntity.java",
+          "src/main/resources/assets/the_divine_engine/models/block/furniture_crafting_table.json",
+          "src/main/resources/assets/the_divine_engine/models/item/furniture_crafting_table.json",
+          "src/main/resources/assets/the_divine_engine/blockstates/furniture_crafting_table.json",
+          "src/main/resources/data/the_divine_engine/loot_table/blocks/furniture_crafting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "FurnitureCraftingTableInterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_crafting_table_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/client/gui/FurnitureCraftingTableInterfaceScreen.java",
+          "src/main/java/net/mcreator/thedivineengine/world/inventory/FurnitureCraftingTableInterfaceMenu.java",
+          "src/main/java/net/mcreator/thedivineengine/network/FurnitureCraftingTableInterfaceButtonMessage.java"
+        ]
+      },
+      "path": "~/interfaces"
+    },
+    {
+      "name": "FurnitureCraftinhTableProcedure1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_craftinh_table_procedure_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/FurnitureCraftinhTableProcedure1Procedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "FurnitureCraftinhTableProcedure2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_craftinh_table_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/FurnitureCraftinhTableProcedure2Procedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "FurnitureCraftinhTableProcedure3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_craftinh_table_procedure_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thedivineengine/procedures/FurnitureCraftinhTableProcedure3Procedure.java"
+        ]
+      },
+      "path": "~/Procedurs"
+    },
+    {
+      "name": "FurnitureCraftingTableC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furniture_crafting_table_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/furniture_crafting_table_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/furniture_crafting_table_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "SheetAndInkC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheet_and_ink_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_divine_engine/advancement/recipes/sheet_and_ink_c.json",
+          "src/main/resources/data/the_divine_engine/recipe/sheet_and_ink_c.json"
+        ]
+      },
+      "path": "~/crafts"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "CreatedWorld",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TitaniumPickaxe",
+      "~CUSTOM:AluminiumPickaxe",
+      "~CUSTOM:Copperpickaxe",
+      "~CUSTOM:SteelPickaxe"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AncientBasis",
+      "~CUSTOM:Basistier2",
+      "~CUSTOM:Thebasisofamechanicalmachine",
+      "~CUSTOM:Titaniumblock",
+      "~CUSTOM:Titaniumore",
+      "~CUSTOM:ElctricGenerator",
+      "~CUSTOM:Magnetiteore",
+      "~CUSTOM:Aluminiumplateblock",
+      "~CUSTOM:Aluminiumblock",
+      "~CUSTOM:Aluminiumore",
+      "~CUSTOM:Steelblock",
+      "~CUSTOM:Industrialfurnance"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TitaniumAxe",
+      "~CUSTOM:Aluminiumaxe",
+      "~CUSTOM:Copperaxe",
+      "~CUSTOM:Steelaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TitaniumSword",
+      "~CUSTOM:AluminiumSword",
+      "~CUSTOM:Coppersword",
+      "~CUSTOM:Steelsword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TitaniumShovel",
+      "~CUSTOM:AluminiumShovel",
+      "~CUSTOM:Coppershovel",
+      "~CUSTOM:Steelshovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TitaniumHoe",
+      "~CUSTOM:AluminiumHoe",
+      "~CUSTOM:Copperhoe",
+      "~CUSTOM:Steelhoe"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Steelhammer",
+      "~CUSTOM:Insulatingtape",
+      "~CUSTOM:TheDivineEngineItem",
+      "~CUSTOM:Ironhammer"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:AncientBasis",
+      "~CUSTOM:Aluminiumore"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:TitaniumArmor.helmet",
+      "~CUSTOM:AluminiumArmor.helmet",
+      "~CUSTOM:Copperarmor.helmet",
+      "~CUSTOM:SteelArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:TitaniumArmor.body",
+      "~CUSTOM:AluminiumArmor.body",
+      "~CUSTOM:Copperarmor.body",
+      "~CUSTOM:SteelArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:TitaniumArmor.legs",
+      "~CUSTOM:AluminiumArmor.legs",
+      "~CUSTOM:Copperarmor.legs",
+      "~CUSTOM:SteelArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:TitaniumArmor.boots",
+      "~CUSTOM:AluminiumArmor.boots",
+      "~CUSTOM:Copperarmor.boots",
+      "~CUSTOM:SteelArmor.boots"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Thebasisofamechanicalmachine",
+      "~CUSTOM:Magnetiteore",
+      "~CUSTOM:Aluminiumplateblock",
+      "~CUSTOM:Aluminiumblock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Basistier2",
+      "~CUSTOM:Titaniumblock",
+      "~CUSTOM:Titaniumore"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:TheDivineEngine": [
+      "Industrialfurnance",
+      "Crusher",
+      "Plantshredder",
+      "ElctricGenerator",
+      "Ironplateblock",
+      "Steelplateblock",
+      "Aluminiumplateblock",
+      "Steelblock",
+      "Aluminiumblock",
+      "Titaniumblock",
+      "SteelIngot",
+      "Magnetiteore",
+      "Magnetiterawore",
+      "Aluminiumore",
+      "Aluminiumrawore",
+      "Aluminiumingot",
+      "Titaniumore",
+      "Titaniumrawore",
+      "Titaniumingot",
+      "Electrumingot",
+      "Ironhammer",
+      "Steelhammer",
+      "Ironplate",
+      "Steelplate",
+      "Copperplate",
+      "Aluminiumplate",
+      "Electrumplate",
+      "Titamiumplate",
+      "Irondust",
+      "Golddust",
+      "Copperdust",
+      "Aluminiumdust",
+      "Electrumdust",
+      "Copperwire",
+      "Insulatedcopperwire",
+      "Electrumwire",
+      "InsulatedElectrumWire",
+      "Silicon",
+      "Coppercoil",
+      "Insulatingtape",
+      "Siliconwafer",
+      "Chip",
+      "Diamondcrusherwheels",
+      "Plantfiber",
+      "Shredderblades",
+      "Steelgears",
+      "Steelwipe",
+      "Mechanicalparts",
+      "WheelForHandDynamo",
+      "Rotor",
+      "Processedmagnetite",
+      "Motor",
+      "Thebasisofamechanicalmachine",
+      "Basistier2",
+      "Backpack",
+      "Backpacktier2",
+      "Steelsword",
+      "Steelaxe",
+      "Steelshovel",
+      "SteelPickaxe",
+      "Steelhoe",
+      "Coppersword",
+      "Copperaxe",
+      "Coppershovel",
+      "Copperpickaxe",
+      "Copperhoe",
+      "AluminiumSword",
+      "Aluminiumaxe",
+      "AluminiumPickaxe",
+      "AluminiumShovel",
+      "AluminiumHoe",
+      "TitaniumSword",
+      "TitaniumAxe",
+      "TitaniumShovel",
+      "TitaniumPickaxe",
+      "TitaniumHoe",
+      "TheDivineEngineItem",
+      "SteelArmor",
+      "Copperarmor",
+      "AluminiumArmor",
+      "TitaniumArmor",
+      "Hemp",
+      "Harvestedhemp",
+      "AncientBasis",
+      "AncientRecipe",
+      "PieceOfQnQncientRecipe",
+      "CopperWireN",
+      "FurnitureCraftingTable"
+    ],
+    "TOOLS": [
+      "Copperaxe",
+      "Coppershovel",
+      "Copperpickaxe",
+      "Copperhoe",
+      "Steelaxe",
+      "Steelshovel",
+      "SteelPickaxe",
+      "Steelhoe",
+      "Aluminiumaxe",
+      "AluminiumShovel",
+      "AluminiumPickaxe",
+      "AluminiumHoe",
+      "TitaniumAxe",
+      "TitaniumShovel",
+      "TitaniumPickaxe",
+      "TitaniumHoe"
+    ],
+    "COMBAT": [
+      "Steelsword",
+      "Coppersword",
+      "AluminiumSword",
+      "TitaniumSword",
+      "SteelArmor",
+      "Copperarmor",
+      "AluminiumArmor",
+      "TitaniumArmor"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.the_divine_engine.industrialfurnance.description_0": "Used to alloy two metals",
+      "item.the_divine_engine.industrialfurnance": "Rawblast furnace",
+      "block.the_divine_engine.industrialfurnance": "Rawblast furnace",
+      "item.the_divine_engine.steel_ingot": "Steel Ingot",
+      "item.the_divine_engine.steel_ingot.description_0": "Coal and iron alloy ingot",
+      "item.the_divine_engine.steel_pickaxe": "Steel Pickaxe",
+      "item.the_divine_engine.steel_pickaxe.description_0": "A pickaxe made of coal and iron alloy",
+      "item_group.the_divine_engine.the_divine_engine": "The Divine Engine",
+      "advancements.steelingotadvancement.title": "The Steel Age",
+      "advancements.steelingotadvancement.descr": "Combine coal and iron to make steel.",
+      "advancements.steelpickaxeadvancement.descr": "Obtain or craft a steel pickaxe",
+      "advancements.steelpickaxeadvancement.title": "Pickaxe made of iron or coal?",
+      "block.the_divine_engine.steelblock": "Steel block",
+      "item.the_divine_engine.steelaxe": "Steel axe",
+      "item.the_divine_engine.thedivineengineicon": "Thedivineengineicon",
+      "advancements.beginadvancement.descr": "The engine has noticed you.",
+      "advancements.beginadvancement.title": "The Divine Engine",
+      "item.the_divine_engine.steelsword": "Steel sword",
+      "item.the_divine_engine.steelshovel": "Steel shovel",
+      "item.the_divine_engine.steelhoe": "Steel hoe",
+      "gui.the_divine_engine.inductionfurnanceinrerface.button_start": "start",
+      "item.the_divine_engine.ironhammer": "Ironhammer",
+      "item.the_divine_engine.ironplate": "Iron plate",
+      "item.the_divine_engine.steelplate": "Steel plate",
+      "block.the_divine_engine.steelplateblock": "Steel plate block",
+      "block.the_divine_engine.ironplateblock": "Iron plate block",
+      "block.the_divine_engine.crusher": "Crusher",
+      "item.the_divine_engine.irondust": "Iron dust",
+      "gui.the_divine_engine.crusherinterface.button_crush": "crush",
+      "item.the_divine_engine.golddust": "Gold dust",
+      "item.the_divine_engine.copperdust": "Copper dust",
+      "item.the_divine_engine.copperwire": "Copperwire",
+      "item.the_divine_engine.siliconwafer": "Silicon wafer",
+      "item.the_divine_engine.copperplate": "Copper plate",
+      "item.the_divine_engine.chip": "Chip",
+      "advancements.chipadvancement.descr": "Craft a chip",
+      "advancements.chipadvancement.title": "Chiptrick",
+      "item.the_divine_engine.backpack": "Backpack",
+      "gui.the_divine_engine.backpackinterface.label_backpack": "Backpack",
+      "item.the_divine_engine.diamondcrusherwheels": "Diamond crusher wheels",
+      "item.the_divine_engine.mechanicalparts": "Mechanical parts",
+      "item.the_divine_engine.steelwipe": "Steel wipe",
+      "item.the_divine_engine.steelgears": "Steel gear",
+      "item.the_divine_engine.insulatedcopperwire": "Insulated copper wire",
+      "block.the_divine_engine.aluminiumore": "Aluminium ore",
+      "item.the_divine_engine.aluminiumrawore": "Aluminium raw ore",
+      "item.the_divine_engine.aluminiumingot": "Aluminium ingot",
+      "item.the_divine_engine.aluminiumdust": "Aluminium dust",
+      "item.the_divine_engine.electrumdust": "Electrum dust",
+      "item.the_divine_engine.electrumingot": "Electrum ingot",
+      "item.the_divine_engine.copperpickaxe": "Copper pickaxe",
+      "item.the_divine_engine.copperaxe": "Copper axe",
+      "item.the_divine_engine.coppersword": "Copper sword",
+      "item.the_divine_engine.coppershovel": "Copper shovel",
+      "item.the_divine_engine.copperhoe": "Copper hoe",
+      "advancements.rawblastfurnanceadvancement.descr": "Craft raw blast furnance",
+      "advancements.rawblastfurnanceadvancement.title": "Raw blast furnance",
+      "advancements.backpackadvancement.title": "Low on inventory space?",
+      "advancements.backpackadvancement.descr": "Craft a backpack",
+      "advancements.electrumingotadvancement.descr": "Obtain an alloy of aluminum and gold",
+      "advancements.electrumingotadvancement.title": "It (does\u0027nt) conduct electricity.",
+      "advancements.aluminiumadvancement.descr": "Obtain an aluminium ingot",
+      "advancements.aluminiumadvancement.title": "Foil, but serious",
+      "advancements.crusheradvancement.descr": "Craft a chrusher",
+      "advancements.crusheradvancement.title": "Don\u0027t stick your fingers in there.",
+      "advancements.irondustadvancement_2.descr": "Crush raw iron to obtain iron dust",
+      "advancements.irondustadvancement_2.title": "Too hard - we\u0027ll fix it",
+      "advancements.ironhammeradvancement.descr": "Craft an iron hammer",
+      "advancements.ironhammeradvancement.title": "Don\u0027t hit your fingers!",
+      "advancements.ironplateadvencement.descr": "Craft an iron plate",
+      "advancements.ironplateadvencement.title": "Flat iron",
+      "advancements.mechanicalpartsadvancement.title": "A set of hardware",
+      "advancements.mechanicalpartsadvancement.descr": "Craft mechanical parts",
+      "advancements.steelplateadvancement.descr": "Craft steel plate",
+      "advancements.steelplateadvancement.title": "Flat iron mixed with coal",
+      "item.the_divine_engine.the_divine_engine_item": "Eye Of The Divine Engine",
+      "item.the_divine_engine.the_divine_engine_item.description_0": "DO NOT USE IN THE HOME UNDER ANY CIRCUMSTANCES",
+      "item.the_divine_engine.the_divine_engine_item.description_1": "You finally found him...",
+      "item.the_divine_engine.steel_armor_helmet": "Steel helmet",
+      "item.the_divine_engine.steel_armor_boots": "Steel boots",
+      "item.the_divine_engine.steel_armor_chestplate": "Steel chestplate",
+      "item.the_divine_engine.steel_armor_leggings": "Steel leggins",
+      "block.the_divine_engine.aluminiumblock": "Aluminium block",
+      "item.the_divine_engine.aluminiumplate": "Aluminium plate",
+      "block.the_divine_engine.industrialfurnance.description_1": "(There must always be lava or a fire under the block.)",
+      "effect.the_divine_engine.the_divine_engine_effect": "Sight Of The Divine Engine",
+      "item.the_divine_engine.copperarmor_leggings": "Copper leggins",
+      "item.the_divine_engine.copperarmor_chestplate": "Copper chestplate",
+      "item.the_divine_engine.copperarmor_boots": "Copper boots",
+      "item.the_divine_engine.copperarmor_helmet": "Copper helmet",
+      "block.the_divine_engine.aluminiumplateblock": "Aluminium plate block",
+      "item.the_divine_engine.electrumplate": "Electrum plate",
+      "item.the_divine_engine.electrumwire": "Electrum wire",
+      "item.the_divine_engine.insulated_electrum_wire": "Insulated Electrum Wire",
+      "item.the_divine_engine.insulatingtape": "Insulating tape",
+      "gui.the_divine_engine.plantshredderinterface.button_chop": "chop",
+      "block.the_divine_engine.plantshredder": "Plant shredder",
+      "item.the_divine_engine.plantfiber": "Plant fiber",
+      "item.the_divine_engine.shredderblades": "Shredder blades",
+      "advancements.plantshredderadvancement.descr": "Craft a plant shredder",
+      "advancements.plantshredderadvancement.title": "No mercy for the botanist",
+      "item.the_divine_engine.shredderblades.description_0": "This is not a swastika",
+      "advancements.plantfiberadvancement.title": "Insulates perfectly",
+      "advancements.plantfiberadvancement.descr": "Obtain a plant fiber",
+      "advancements.insulatedwireadvancemenet.descr": "Insulate the copper wire with tape",
+      "advancements.insulatedwireadvancemenet.title": "Red means dangerous",
+      "item.the_divine_engine.silicon": "Silicon",
+      "item.the_divine_engine.coppercoil": "Copper coil",
+      "item.the_divine_engine.rotor": "Stator",
+      "block.the_divine_engine.magnetiteore": "Magnetite ore",
+      "item.the_divine_engine.magnetiterawore": "Magnetite raw ore",
+      "item.the_divine_engine.processedmagnetite": "Processed magnetite",
+      "item.the_divine_engine.motor": "Electric motor",
+      "block.the_divine_engine.elctric_generator": "Hand Dynamo",
+      "item.the_divine_engine.wheel_for_hand_dynamo": "Wheel for hand dynamo",
+      "gui.the_divine_engine.handdynamointerface.button_turn": "turn",
+      "advancements.electricmotoradvancement.descr": "Craft electric motor",
+      "advancements.electricmotoradvancement.title": "It generates electricity",
+      "advancements.handdynamoadvancement.descr": "Craft hand dynamo",
+      "advancements.handdynamoadvancement.title": "Spin like it\u0027s the last time",
+      "block.the_divine_engine.titaniumore": "Titanium ore",
+      "item.the_divine_engine.titaniumrawore": "Titanium raw ore",
+      "item.the_divine_engine.titaniumingot": "Titanium ingot",
+      "item.the_divine_engine.titamiumplate": "Titamium plate",
+      "item.the_divine_engine.steelhammer": "Steel hammer",
+      "block.the_divine_engine.titaniumblock": "Titanium block",
+      "block.the_divine_engine.thebasisofamechanicalmachine": "Basis of a mechanical machine",
+      "item.the_divine_engine.backpacktier_2": "Backpack tier 2",
+      "gui.the_divine_engine.backpacktier_2interface.label_backpack": "Backpack tier 2",
+      "block.the_divine_engine.basistier_2": "Basis tier 2",
+      "advancements.basisadvancement.title": "The most basic base of all bases",
+      "advancements.basisadvancement.descr": "Craft a basis",
+      "advancements.basistier_2advancement.title": "The most basic base of all bases tier 2",
+      "advancements.basistier_2advancement.descr": "Craft a basis tier 2",
+      "advancements.backpacktier_2advancement.title": "Low on inventory space tier 2?",
+      "advancements.backpacktier_2advancement.descr": "Craft a backpack tier 2",
+      "block.the_divine_engine.hemp": "Hemp",
+      "item.the_divine_engine.harvestedhemp": "Harvested hemp",
+      "block.the_divine_engine.copper_wire_block": "Insulated Copper Wire",
+      "block.the_divine_engine.copper_wire_n": "Insulated Copper Wire North",
+      "block.the_divine_engine.copper_wire_block_13452": "Insulated Copper Wire",
+      "block.the_divine_engine.ancient_basis": "Ancient Basis",
+      "item.the_divine_engine.ancient_recipe": "Ancient Recipe",
+      "item.the_divine_engine.ancient_recipe.description_0": "You\u0027re surprised that you can read this without knowing what language it is.",
+      "block.the_divine_engine.ancient_basis.description_0": "You see symbols that you can read, but they are scattered in random order. It is better to write them down on paper.",
+      "advancements.ancient_recipe_advancement.title": "Whose notes are these and how can you read them?",
+      "advancements.ancient_recipe_advancement.descr": "Craft Ancient Recipe",
+      "item.the_divine_engine.piece_of_qn_qncient_recipe": "Piece of an ancient recipe",
+      "item.the_divine_engine.aluminium_pickaxe": "Aluminium pickaxe",
+      "item.the_divine_engine.aluminiumaxe": "Aluminium axe",
+      "item.the_divine_engine.aluminium_shovel": "Aluminium shovel",
+      "item.the_divine_engine.aluminium_hoe": "Aluminium hoe",
+      "item.the_divine_engine.aluminium_sword": "Aluminium sword",
+      "item.the_divine_engine.aluminium_armor_boots": "Aluminium boots",
+      "item.the_divine_engine.aluminium_armor_helmet": "Aluminium helmet",
+      "item.the_divine_engine.aluminium_armor_chestplate": "Aluminium chestplate",
+      "item.the_divine_engine.aluminium_armor_leggings": "Aluminium leggins",
+      "item.the_divine_engine.titanium_pickaxe": "Titanium Pickaxe",
+      "item.the_divine_engine.titanium_axe": "Titanium axe",
+      "item.the_divine_engine.titanium_shovel": "Titanium shovel",
+      "item.the_divine_engine.titanium_hoe": "Titanium hoe",
+      "item.the_divine_engine.titanium_sword": "Titanium sword",
+      "item.the_divine_engine.titanium_armor_helmet": "Titanium helmet",
+      "item.the_divine_engine.titanium_armor_boots": "Titanium boots",
+      "item.the_divine_engine.titanium_armor_chestplate": "Titanium chestplate",
+      "item.the_divine_engine.titanium_armor_leggings": "Titanium leggins",
+      "item.the_divine_engine.steelblock": "Steel block",
+      "item.the_divine_engine.steelplateblock": "Steel plate block",
+      "item.the_divine_engine.ironplateblock": "Iron plate block",
+      "item.the_divine_engine.crusher": "Crusher",
+      "item.the_divine_engine.aluminiumore": "Aluminium ore",
+      "item.the_divine_engine.aluminiumblock": "Aluminium block",
+      "item.the_divine_engine.aluminiumplateblock": "Aluminium plate block",
+      "item.the_divine_engine.plantshredder": "Plant shredder",
+      "item.the_divine_engine.magnetiteore": "Magnetite ore",
+      "item.the_divine_engine.elctric_generator": "Hand Dynamo",
+      "item.the_divine_engine.titaniumore": "Titanium ore",
+      "item.the_divine_engine.titaniumblock": "Titanium block",
+      "item.the_divine_engine.thebasisofamechanicalmachine": "Basis of a mechanical machine",
+      "item.the_divine_engine.basistier_2": "Basis tier 2",
+      "item.the_divine_engine.hemp": "Hemp",
+      "item.the_divine_engine.copper_wire_block": "Insulated Copper Wire",
+      "item.the_divine_engine.copper_wire_n": "Insulated Copper Wire North",
+      "item.the_divine_engine.copper_wire_block_13452": "Insulated Copper Wire",
+      "item.the_divine_engine.ancient_basis": "Ancient Basis",
+      "block.the_divine_engine.remains_of_the_ancients": "Remains Of The Ancients",
+      "block.the_divine_engine.cutting_board": "Cutting Board",
+      "block.the_divine_engine.table": "Table",
+      "block.the_divine_engine.sheetandink": "Sheet and ink",
+      "block.the_divine_engine.chair": "Chair",
+      "item_group.the_divine_engine.futniture_tab": "The Divine Engine: Futniture ",
+      "block.the_divine_engine.furniture_crafting_table": "Furniture Crafting Table",
+      "gui.the_divine_engine.furniture_crafting_table_interface.button_cutting_board_5_spruce_planks": "Cutting board -- 5 spruce planks",
+      "gui.the_divine_engine.furniture_crafting_table_interface.button_table_15_spruce_planks": "Table -- 15 spruce planks",
+      "gui.the_divine_engine.furniture_crafting_table_interface.label_furniture_crafting_table": "Furniture crafting table",
+      "gui.the_divine_engine.furniture_crafting_table_interface.button_chair_10_spruce_planks": "Chair -- 10 spruce planks"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModScreens.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModMenus.java",
+      "src/main/java/net/mcreator/thedivineengine/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModMobEffects.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModBlocks.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModBlockEntities.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModItems.java",
+      "src/main/java/net/mcreator/thedivineengine/network/TheDivineEngineModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/thedivineengine/TheDivineEngineMod.java",
+      "src/main/java/net/mcreator/thedivineengine/init/TheDivineEngineModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "crafts",
+        "children": []
+      },
+      {
+        "name": "Procedurs",
+        "children": []
+      },
+      {
+        "name": "steel instruments",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "interfaces",
+        "children": []
+      },
+      {
+        "name": "copper instruments",
+        "children": []
+      },
+      {
+        "name": "aluminium instruments",
+        "children": []
+      },
+      {
+        "name": "titanium instruments",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_divine_engine",
+    "modName": "The Divine Engine",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thedivineengine"
+  },
+  "mcreatorVersion": 202500345720
+}

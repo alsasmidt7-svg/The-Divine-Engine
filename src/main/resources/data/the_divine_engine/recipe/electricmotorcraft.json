@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "bca",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:steelplate"
+    },
+    "b": {
+      "item": "the_divine_engine:processedmagnetite"
+    },
+    "c": {
+      "item": "the_divine_engine:rotor"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:motor",
+    "count": 1
+  }
+}

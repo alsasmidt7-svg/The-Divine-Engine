@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:ironplate"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:ironplateblock",
+    "count": 1
+  }
+}

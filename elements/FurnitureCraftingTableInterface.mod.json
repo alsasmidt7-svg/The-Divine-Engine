@@ -1,0 +1,118 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 204,
+    "height": 184,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 10,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 150,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 105,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_furniture_crafting_table",
+          "text": {
+            "fixedValue": "Furniture crafting table"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 115,
+          "y": 31,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_table_15_spruce_planks",
+          "text": "Table -- 15 spruce planks",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FurnitureCraftinhTableProcedure1"
+          },
+          "width": 155,
+          "height": 20,
+          "x": 135,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chair_10_spruce_planks",
+          "text": "Chair -- 10 spruce planks",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FurnitureCraftinhTableProcedure2"
+          },
+          "width": 155,
+          "height": 20,
+          "x": 135,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cutting_board_5_spruce_planks",
+          "text": "Cutting board -- 5 spruce planks",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FurnitureCraftinhTableProcedure3"
+          },
+          "width": 191,
+          "height": 20,
+          "x": 119,
+          "y": 82,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

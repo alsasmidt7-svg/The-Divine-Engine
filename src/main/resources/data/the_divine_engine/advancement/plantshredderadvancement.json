@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_divine_engine:plantshredder"
+    },
+    "title": {
+      "translate": "advancements.plantshredderadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.plantshredderadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plantshredderadvancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_divine_engine:plantshredder"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_divine_engine:steelplateadvancement"
+}

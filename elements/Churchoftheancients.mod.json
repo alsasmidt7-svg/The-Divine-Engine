@@ -1,0 +1,88 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "church_of_the_ancients",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 1000,
+    "separation": 120,
+    "restrictionBiomes": [
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "taiga"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "church_of_the_ancients",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "church_of_the_ancients",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

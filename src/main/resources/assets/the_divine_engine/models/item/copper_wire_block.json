@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_divine_engine:item/insulatet_copper_wire"
+  },
+  "render_type": "translucent"
+}

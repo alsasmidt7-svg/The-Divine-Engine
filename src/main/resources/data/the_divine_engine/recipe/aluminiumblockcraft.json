@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:aluminiumingot"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:aluminiumblock",
+    "count": 1
+  }
+}

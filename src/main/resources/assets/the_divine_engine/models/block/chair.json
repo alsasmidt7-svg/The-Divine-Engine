@@ -1,0 +1,9 @@
+{
+  "parent": "the_divine_engine:custom/chair",
+  "textures": {
+    "all": "the_divine_engine:block/texturechair",
+    "particle": "the_divine_engine:block/texturechair",
+    "2": "the_divine_engine:block/texturechair"
+  },
+  "render_type": "solid"
+}

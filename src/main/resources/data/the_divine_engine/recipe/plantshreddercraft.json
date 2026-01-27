@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_divine_engine:aluminiumplateblock"
+    },
+    "b": {
+      "item": "the_divine_engine:steelplateblock"
+    },
+    "c": {
+      "item": "the_divine_engine:thebasisofamechanicalmachine"
+    },
+    "d": {
+      "item": "the_divine_engine:shredderblades"
+    }
+  },
+  "result": {
+    "id": "the_divine_engine:plantshredder",
+    "count": 1
+  }
+}
